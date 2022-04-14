@@ -2,23 +2,26 @@
 <html>
     <head>
         <title>Homeworks Auto Detailing</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body>
         <header>
             <H1>Homeworks Auto Detailing</H1>
-            <ul>
-                <li>Stuart</li>
-                <li>Jensen Beach</li>
-                <li>Port Saint Lucie</li>
+            <ul style="text-align:center;">
+                <li style="color:navy;display:inline;border: solid navy 1px;background-color: rgb(149, 239, 247);padding:5px 40px;margin:0px 25px;">Stuart</li> 
+                <li style="color:navy;display:inline;border: solid navy 1px;background-color: rgb(149, 239, 247);padding:5px 15px;margin:0px 25px;">Jensen Beach</li>
+                <li style="color:navy;display:inline;border: solid navy 1px;background-color: rgb(149, 239, 247);padding:5px;margin:0px 25px;">Port Saint Lucie</li>
             </ul>
         </header>
         <main>
-            <section>
-                <img src="https://via.placeholder.com/800x300">
+            <section id="section1">
+                <img style="margin: 1em 0em;"src="carwashbanner.jpg" 
+                width="800"
+                height="300">
             </section>
-            <section>
+            <section id="section2">
                 <h3>List of Services</h3>
-                <ul>
+                <ul style="list-style: none;">
                     <li>Basic Package: exterior wash, tires cleaned and dressed, interior vacuum</li>
                     <li>Interior detail and glass cleaning</li>
                     <li>Pet hair removal</li>
@@ -27,23 +30,37 @@
                     <li>Headlight restoration</li>
                 </ul>
             </section>
-            <section>
-                <img src="https://via.placeholder.com/250x250">
+            <section id="section3">
+                <img src="dirtycar1.jpg"
+                width="400"
+                height="250"
+                id="before1">
                 <p>Before</p>
-                <img src="https://via.placeholder.com/250x250">
-                <p>After</p>
-                <img src="https://via.placeholder.com/250x250">
-                <p>Before</p>
-                <img src="https://via.placeholder.com/250x250">
+                <img src="cleancar1.jpg"
+                width="400"
+                height="250"
+                id="after1">
                 <p>After</p>
             </section>
-            <section>
+            <section id="section4">
+                <img src="dirtycar2.jpg" 
+                width="400"
+                height="250"
+                id="before2">
+                <p>Before</p>
+                <img src="cleancar2.jpg"
+                width="400"
+                height="250" 
+                id="after2">
+                <p>After</p>
+            </section>
+            <section id="section5">
                 <a><h3>Book Service</h3></a>
             </section>
         </main>
         <footer>
             <h4>Contact Me</h4>
-            <ul>
+            <ul id="ul3">
                 <li>Daniel Mason</li>
                 <li>555-555-5555</li>
                 <li>homeworksautodetailing@gmail.com</li>
