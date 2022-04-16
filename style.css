@@ -10,7 +10,11 @@ h1 {
 color: navy;
 border: solid navy 2px;
 text-align: center;
-background-color: rgb(149, 239, 247);
+background-color: rgb(71, 242, 242);
+}
+h2 {
+    color:aliceblue;
+    text-align: center;
 }
 
 #section1 {
