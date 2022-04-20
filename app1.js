@@ -3,12 +3,16 @@
 // let userName = 'Mandy';
 // console.log (userName);
 
-let userName = prompt('Please Enter Your Name!')
+function askUserName() {
+   let userName = prompt('Please Enter Your Name!')
 
-console.log (userName);
-//              'Welcome ' + 'Mandy'
-if (userName == 'Mandy'){
-    document.write('Welcome Master ' + userName)
-   }   else {
-document.write("Welcome " + userName)
-   }
+   console.log (userName);
+   //              'Welcome ' + 'Mandy'
+   if (userName == 'Mandy'){
+       document.write('Welcome Master ' + userName)
+      }   else {
+   document.write("Welcome " + userName)
+      }
+}
+
+askUserName ();
