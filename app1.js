@@ -15,4 +15,11 @@ function askUserName() {
       }
 }
 
-askUserName ();
+function bookNow() {
+   confirm ("Do you really want to book?");
+}
+
+function changeColor() {
+   let color = document.getElementById('colorInputText').value;
+   document.body.style.backgroundColor = color;
+}
