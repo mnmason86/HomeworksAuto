@@ -54,5 +54,4 @@ function starImage(){
    while(userRating < 1 || userRating > 5){
       userRating = prompt('1-5 Only!');
    }
-   for (rating = 1; rating <= 5; rating = rating +1);
-}
+}   
