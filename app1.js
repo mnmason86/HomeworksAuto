@@ -55,6 +55,5 @@ function starImage(){
          if (userRating < 1 || userRating > 5){
             userRating = prompt('1-5 Only!')
          }
-      
       }
 }
