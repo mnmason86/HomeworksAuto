@@ -49,9 +49,12 @@ function guessNumber () {
 
 function starImage(){
    let userRating = prompt('Please Rate Our Service 1-5');
-   let rating = value(userRating);
 
-   while(userRating < 1 || userRating > 5){
-      userRating = prompt('1-5 Only!');
-   }
-}   
+      for (let i = 0; i < userRating; i++){
+         document.write("<img src = 'goldstar2.jpg'>");
+         if (userRating < 1 || userRating > 5){
+            userRating = prompt('1-5 Only!')
+         }
+      
+      }
+}
