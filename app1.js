@@ -1,17 +1,11 @@
-// console.log('Hello World from the JS file!');
-
-// let userName = 'Mandy';
-// console.log (userName);
 
 function askUserName() {
    let userName = prompt('Please Enter Your Name!')
 
-   console.log (userName);
-   //              'Welcome ' + 'Mandy'
    if (userName == 'Mandy'){
        document.write('Welcome Master ' + userName)
-      }   else {
-   document.write("Welcome " + userName)
+      } else {
+       document.write("Welcome " + userName)
       }
 }
 
@@ -49,7 +43,6 @@ function guessNumber () {
 
 function starImage(){
    let userRating = prompt('Please Rate Our Service 1-5');
-
       for (let i = 0; i < userRating; i++){
          document.write("<img src = 'goldstar2.jpg'>");
          if (userRating < 1 || userRating > 5){
